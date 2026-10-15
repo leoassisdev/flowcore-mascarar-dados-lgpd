@@ -1,0 +1,15 @@
+{
+  "name": "flowcore-mascarar-dados-lgpd",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Mascara CPF, CNPJ, e-mail, telefone e cartão em textos e objetos antes de gravar log, e troca senha, token e authorization por [REDACTED]. Logs úteis sem vazar dado pessoal.",
+  "author": "FlowCore Soluções LTDA",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}
